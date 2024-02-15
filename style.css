@@ -136,7 +136,6 @@ html{
 }
 .template__buttons{
 	display: flex;
-	flex-direction: column;
 	gap: 16px;
 }
 .btn{
@@ -337,6 +336,10 @@ html{
 		width: 100%;
 		margin: 0 auto;
 	}
+	.template__buttons{
+		display: flex;
+		flex-direction: column;
+	}
 }
 @media (max-width: 1024px) {
 	.container{
@@ -381,10 +384,8 @@ html{
 		height: 40px;
 	}
 	.modules__block{
-		/* padding: 80px 16px; */
 		display: flex;
-		flex-direction: column;
-		gap: 48px;
+		gap: 15px;
 	}
 	.modules__item{
 		display: flex;
